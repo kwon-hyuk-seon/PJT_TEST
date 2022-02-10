@@ -111,6 +111,62 @@
 .terms-container .terms-txt p{font-weight:500;line-height:16.28px;font-size:0.9rem;}
 .terms-container .terms-txt textarea{width:100%;;height:90%;resize: none;font-size:0.7rem;margin-top:20px;line-height:16.28px;}
 
+/* 약관 컨텐츠 공통 element style */
+.terms-txt.policy-box {
+    height: auto;
+}
+.terms-txt > dl {
+    display: block;
+    border-top: 1px solid transparent;
+}
+.terms-txt > dl > dt {
+    font-weight: 500;
+    font-size: 0.92rem;
+    margin: 0.5em 0;
+}
+.terms-txt > dl > dd {
+    position: relative;
+    font-family: inherit;
+    font-size: 0.84rem;
+    line-height: 16.28px;
+}
+.terms-txt > dl > dd.use-num {
+    padding-left: 2em;
+}
+.terms-txt > dl > dd.use-num > span {
+    display: block;
+    position: absolute;
+    width: 1.72em;
+    border: none;
+    left: 0;
+    top: 0;
+    text-align: right;
+}
+.terms-txt > dl > dd > ol {
+    display: block;
+    margin: 0.54em 0;
+}
+.terms-txt > dl > dd > ol > li {
+    font-size: 0.72rem;
+    position: relative;
+    display: block;
+    font-weight: 400;
+    padding-left: 1.8em;
+    line-height: 16.28px;
+    margin: 0.42em 0;
+}
+.terms-txt > dl > dd > ol > li > span {
+    display: block;
+    position: absolute;
+    width: 1.42em;
+    border: none;
+    left: 0;
+    top: 0;
+    text-align: right;
+}
+.terms-txt > dl > dd > ol > li > span:after {
+    content: '.';
+}
 /* 가입완료 KP-APP-D-SC-1007 Style Code */
 .terms-container .terms-txt.privercy{height:33rem;}
 .terms-container .terms-txt.privercy textarea{margin-top:0;}
