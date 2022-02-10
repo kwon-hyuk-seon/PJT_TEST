@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no, address=no, email=no" />
+
+  <title>삭제동의</title>
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- bootstrap Style Code -->
+  <link rel="stylesheet" href="../css/morpheus-style.css">
+  <!-- Main Style Sheet -->
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <!-- Common Style Sheet -->
+  <link rel="stylesheet" href="../css/morpheus-common.css">
+</head>
+
+<body>
+  <div class="m80 wrapper">
+    <div class="top-nav">
+      <div class="icon-txt">
+        <a href="KP-APP-D-SC-6011.html">
+          <div class="top-iconBack"><img src="../img/ic_back.svg" alt="뒤로가기"></div>
+        </a>
+        <p>삭제동의</p>
+      </div>
+    </div>
+    <!-- End of Header Section -->
+    <div class="box-leave delete top-4">
+      <p>서비스 탈퇴 시 이용했던 서비스 및 현재 시용중인 서비스 관련 정보가 전체 삭제됩니다.</p>
+
+      <div class="custom-control">
+        <input type="checkbox" class="custom-control-input" id="allDelete" />
+        <label class="custom-control-label" for="allDelete">
+          <p>전체 선택</p>
+        </label>
+        
+      </div>
+
+      <div class="leave-txt delete">
+        <ul>
+          <li>
+            <div class="custom-control">
+              <input type="checkbox" class="custom-control-input" id="postDelete" />
+              <label class="custom-control-label" for="postDelete">
+                <p>우체국 우편</p>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="custom-control">
+              <input type="checkbox" class="custom-control-input" id="depositDelete" />
+              <label class="custom-control-label" for="depositDelete">
+                <p>우체국 예금</p>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="custom-control">
+              <input type="checkbox" class="custom-control-input" id="insrDelete" />
+              <label class="custom-control-label" for="insrDelete">
+                <p>우체국 보험</p>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="custom-control">
+              <input type="checkbox" class="custom-control-input" id="shopDelete" />
+              <label class="custom-control-label" for="shopDelete">
+                <p>우체국 쇼핑</p>
+              </label>
+            </div>
+          </li>
+          <li>
+            <div class="custom-control">
+              <input type="checkbox" class="custom-control-input" id="payDelete" />
+              <label class="custom-control-label" for="payDelete">
+                <p>포스트 페이</p>
+              </label>
+            </div>
+          </li>
+        </ul>
+        <div class="box-shadow"></div>
+      </div>
+    </div>
+    <!-- 탈퇴 버튼 -->
+    <div class="btn-app modal-event">
+      <button type="button" class="btn-select">탈퇴하기</button>
+    </div>
+    <!-- //탈퇴 버튼 -->
+    <!-- 탈퇴 확인 팝업 -->
+    <div class="m46 wrapper">
+      <div class="popup-bg">
+        <div class="popup-leave">
+          <p>서비스 탈퇴 시 발급받은 인증서(VC) 및 관련 정보는 전체 삭제됩니다. 서비스를 탈퇴하시겠습니까?</p>
+          <span><a href="KP-APP-D-SC-6013.html">확인</a>
+            <a href="KP-APP-D-SC-6011.html"><i>취소</i></a>
+          </span>
+          <div class="box-shadow"></div>
+        </div>
+      </div>
+    </div>
+    <!-- //탈퇴 확인 팝업 -->
+  </div>
+  <script src="../js/jquery-3.3.1.js"></script>
+  <script src="../js/lightslider.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

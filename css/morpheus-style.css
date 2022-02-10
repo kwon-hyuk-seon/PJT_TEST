@@ -1,0 +1,622 @@
+/* 인트로 KP-APP-D-SC-1000 Style Code */
+.m21,.m23{display:flex;justify-content:center;align-items:center;overflow:hidden;}
+.m21 img,.m23 img{width:100%;}
+
+/* 서비스 소개 KP-APP-D-SC-1001 Style Code */
+.m22.wrapper{background:#f5f5f5;height:100vh;width:100%;}
+
+.m22-slide{width:85%;height:80%;margin:auto;display:flex;align-items:center;}
+.m22-slide .slide-wrap{width:100%; ;background:#fff;position:relative;}
+.m22-slide_align{width:100%; ;display:flex;align-items: center;justify-content: center;flex-direction: column;position:relative;background:#fff;padding-bottom:30px;}
+.m22-slide_align ul{width:85%; ;}
+.m22-slide_align ul li{width:fit-content;height: auto;display:block;float:left;}
+.m22-slide_align ul li img{width:100%; ;}
+.m22-slide p{text-align:center;;font-weight:500;font-size:16px;line-height: 23.68px;}
+
+.btn-m22-slide{width:100%;height:24.5%;background: #f5f5f5;position:absolute;bottom:0;}
+.m22.wrapper .lightSlider{overflow: unset;}
+.m22.wrapper .lSSlideWrapper{position: unset;}
+.m22.wrapper .lSSlideOuter .lSPager.lSpg{bottom:-13%;margin:0;}
+.m22.wrapper .lSSlideOuter{overflow:unset;}
+
+/* 가입하기 KP-APP-D-SC-1002 Style Code */
+.m23{flex-direction:column;}
+.m23 a{color:#dd695d;font-weight:500;text-decoration: underline;text-underline-position: under;}
+.m23 a:active,.m23 a:hover{text-decoration: underline;}
+.m23 .btn-app{margin:5% auto 10% auto;}
+
+/* 법인회원 가입안내 KP-APP-D-SC-1002-1 Style Code */
+.m23_1{background:#f5f5f5;}
+.join-info{width:86%; ;margin:auto;}
+.m23_1 p.did-txt{width:100%;text-align:center;color:#909090;font-size:0.85rem;line-height:20px;margin-top:30px;}
+.join-info .did-info{width:100%; ;padding-top:15px;}
+.join-info .did-info p{font-size:1rem;font-weight:500;}
+.join-info .did-info span{font-size:0.8rem;color:#909090;line-height:16.28px;display:block;padding:5px 0 15px 0;}
+.join-info .info-icon{display:flex;justify-content:flex-end;}
+.join-info .info-icon .app,.join-info .info-icon .web{display:flex;font-size:0.7rem;align-items: center;}
+.join-info .info-icon .app img,.join-info .info-icon .web img{width:22px;height:22px;background:#dd695d;;border-radius:50%;margin-right:5px;}
+.join-info .info-icon .web img{background:#909090;margin-left:5px;}
+
+.join-info .info-step{width:100%; ;}
+.join-info .info-step ul{margin:15px 0;}
+.join-info .info-step .roundbox-txt{width:100%;align-items:center;position:relative;margin:0;}
+.join-info .info-step .roundbox-txt .step-icon{width:56px;height:56px;background:#f5f5f5;border-radius:50%;display:flex;justify-content:center;align-items:center;}
+.join-info .info-step .roundbox-txt .step-icon img{width:50%;}
+.join-info .info-step .roundbox-txt .step-txt{width:100%;padding-left:20px;}
+.join-info .info-step .roundbox-txt .step-txt span{width:60px;height:20px;background:#f5f5f5;color:#909090;font-size:0.7rem;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:10px;}
+.join-info .info-step .roundbox-txt .step-txt span i{color:#909090;font-size:0.75rem;font-weight:700;padding-left:3px;}
+.join-info .info-step .roundbox-txt .step-txt p{font-size:1rem;font-weight:500;padding-bottom:3px;}
+.join-info .info-step .roundbox-txt .step-txt em{font-size:0.7rem;color:#909090;display:block;line-height:15px;}
+.join-info .info-step .roundbox-txt .info-icon{display:unset;padding:0;}
+.join-info .info-step .roundbox-txt .app.step,
+.join-info .info-step .roundbox-txt .web.step{position:absolute;right:0;top:0;padding:15px;}
+.join-info .info-step .roundbox-txt .app.step img,
+.join-info .info-step .roundbox-txt .web.step img{margin:0;}
+.join-info .info-step svg{width:100%;display:flex;justify-content:center;align-items:center;height:24px;fill:#d2d2d2;margin:3px 0;}
+.join-info .info-step .roundbox-txt .btn_link{font-size:0.8rem;color:#dd695d;text-decoration:underline;float:right}
+.join-info .info-step .roundbox-txt .btn_link img{display:inline;height:10px;margin-left:3px}
+.join-info .info-step .roundbox-txt .step-txt .link img{display:inline;height:10px;width:6px;margin-left:3px}
+
+/* 접근권한 KP-APP-D-SC-1003 Style Code */
+.m24.wrapper{width:100%;height:100vh;background: #f5f5f5;}
+
+.box-container{width:100%;height:70%;display:flex;flex-direction:column;align-items: center;}
+
+.box-txt .icon-database{background: url(../img/ic_visual_database.svg) no-repeat center;width:36px;height:36px;background-color:#383838;opacity: 0.4;border-radius:50%;margin:auto;}
+.box-txt .icon-camera{background: url(../img/ic_visual_database-1.svg) no-repeat center;width:36px;height:36px;background-color:#383838;opacity: 0.4;border-radius:50%;margin:auto;}
+
+.box-txt .box-agree{width:80%;padding:5px 10px;}
+.box-txt .box-agree i{font-size:1rem;color:#383838;font-weight:500;line-height: 23.68px;}
+.box-txt .box-agree em{font-size:1rem;color:#dd695d;line-height: 23.68px;font-weight: 500;}
+.box-txt .box-agree.sub em{color:#909090;}
+.box-txt .box-agree p{width:100%;font-size:0.845rem;line-height: 20.72px;color:#909090;font-style: normal;font-weight: normal;}
+
+@media screen and (max-width:320px){
+  .img-KP-APP-SC-130-main{width:97%;}
+  .m23.wrapper p{top:73%;left:51.33%;font-size:0.83rem;line-height: 19.5px;}
+}
+
+/* 회원가입 약관동의 KP-APP-D-SC-1005 Style Code */
+.m26.wrapper{width:100%;height:100vh;background:#f5f5f5;position:relative;}
+
+.box-agreeContainer{padding:15px 20px;margin-top:1rem}
+.all-agree{width:100%; ;display:flex;align-items:center;padding-bottom:15px;}
+.all-agree p{font-size:0.95rem;font-weight:500;line-height: 1rem;}
+
+@media (prefers-reduced-motion: reduce) {
+  .custom-control-label::before{transition: none;}
+}
+
+.sub-agree{width:100%; ;display:flex;flex-direction:column;position:relative;}
+.sub-agree ul{width:100%;height:50%;padding:10px;border-radius:4px 4px 0 0;}
+.sub-agree ul p{font-size:0.85rem;padding:5px 0;width:80%;padding-bottom:10px;border-bottom:1px solid rgba(56,56,56,0.4);}
+.sub-agree li{font-size:0.7rem;padding:5px;font-weight:normal;font-style: normal;display:flex;align-items:center;}
+.sub-agree li a{display:flex;align-items:center;z-index:1;width:85%;}
+.sub-agree li a svg{width:7%; ;margin:0 5px;fill:#383838;}
+.sub-agree li input,.sub-agree li label{position:absolute;right:0;margin-right:20px;width:90%;display:flex;align-items:center;justify-content:space-between;flex-direction: row-reverse;}
+.sub-agree li input,.sub-agree li label p{border:0;font-size:0.7rem;}
+.sub-agree .sub1-agree{background-color:#fff;}
+.sub-agree .sub1-agree li img{width:4%; ;color:#383838;display:inline-block;margin:0 5px;}
+.sub-agree .sub2-agree{background-color:#eaeaea;padding-left:20px;}
+.sub-agree .sub2-agree .m_title{font-size:0.85rem;padding:0 0;font-weight:500}
+.sub-agree .sub2-agree li:first-child{padding-left:0;}
+
+/* 서비스 이용약관 팝업 KP-APP-D-SC-1006 Style Code */
+.m27.wrapper{width:100%;height:100vh;background:#f5f5f5;}
+.terms-container{width:100%;padding:20px;background:#f5f5f5;margin-top:1rem}
+.terms-container .terms-tit{width:100%; ;display:flex;justify-content: space-between;padding:10px 0;align-items: flex-end;}
+.terms-container .terms-name p{font-size:1rem;font-weight:500;line-height:22.2px;}
+.terms-container .terms-date p{font-size:0.7rem;color:#909090;line-height:16.28px;font-weight:500;}
+.terms-container .terms-txt{width:auto;height:30rem;background:#fff;margin:auto;padding:20px 15px;position:relative;border-radius: 4px 4px 0 0;}
+.terms-container .terms-txt p{font-weight:500;line-height:16.28px;font-size:0.9rem;}
+.terms-container .terms-txt textarea{width:100%;;height:90%;resize: none;font-size:0.7rem;margin-top:20px;line-height:16.28px;}
+
+/* 가입완료 KP-APP-D-SC-1007 Style Code */
+.terms-container .terms-txt.privercy{height:33rem;}
+.terms-container .terms-txt.privercy textarea{margin-top:0;}
+
+/* 개인정보 제 3자 제공동의 KP-APP-SC-136 Style Code */
+.top-nav .icon-txt.another p{font-size:1rem}
+
+/* 기본정보 등록 APP-D-SC-1011 Style Code */
+.m33.wrapper{background:#f5f5f5;}
+.basic-info{width:86%;margin:20px auto;background:transparent;position:relative;border-radius:4px 4px 0 0;border:1px solid transparent;}
+.basic-info .box-info{width:100%;height:16%;margin:auto;background:#fff;padding:10px 15px;}
+.basic-info .box-info.addre{padding:10px 15px 5px 15px;height:17%;}
+.basic-info .box-info p{font-size:0.75rem;color:#909090;}
+.basic-info .box-info input{font-size:0.85rem;color:#383838;padding:6px 2px;border-bottom:1px solid #d2d2d2;width:100%;}
+.basic-info .box-info .box-email{width:100%; ;display:flex;justify-content:space-between;align-items:center;text-align:center;}
+.basic-info .box-info input.email{width:30%;}
+.basic-info .box-info .box-sel{border:1px solid #d2d2d2;font-size:0.75rem;padding:6px 0}
+.basic-info .box-info span{width:5%;font-size:0.85rem;}
+.basic-info .box-info input.domain{width:48%;font-size:0.85rem;border-bottom:1px solid #d2d2d2;border-radius:4px;background:#fff;}
+.basic-info a{display:flex;justify-content: flex-end; ;font-size:0.8rem;align-items: center;padding:10px 0;color:#dd695d;font-weight: 500;width:100%;}
+.basic-info a:hover{color:#dd695d;}
+.basic-info a img{width:0.5rem;height:0.7rem;margin:0 5px;}
+.basic-info .box-info .radio_box{border-bottom:1px solid #d2d2d2;padding:6px 0;font-size:0.85rem;}
+.basic-info .box-info .radio_box input{margin-left:5px;font-size:0.3rem}
+.basic-info .box-info .radio_box input:first-child{margin-left:0}
+/*radio 버튼 색상변경 */
+.basic-info .box-info .radio_box input[type='radio'] {
+    -webkit-appearance:none;
+    border:1px solid #d2d2d2;
+    border-radius:100%;padding:0 3px;
+    outline:none;
+	display:inline-block;
+    background:#fff;
+  }
+.basic-info .box-info .radio_box input[type='radio']:checked{border:1px solid #dd695d;}
+.basic-info .box-info .radio_box input[type='radio']:before { content:'';width:9px;height:9px;border-radius:50%;display:inline-block;background-color:#d2d2d2 }
+.basic-info .box-info .radio_box input[type='radio']:checked:before {background:#dd695d;}
+
+/* 211116 추가 */
+.basic-info .search-place p{font-size:0.8rem;color:#909090;}
+.basic-info .search-place input{font-size:0.9rem;color:#383838;padding:10px 0;width:68%}
+.basic-info .search-place button{width:26%;padding:0.4rem 0;background:#dd695d;color:#fff;position:absolute;right:0;margin:8px 15px;font-size:0.8rem;font-style: normal;border-radius:4px;font-weight:300;}
+
+/* 주소 찾기 KP-APP-D-SC-1012 Style Code */
+.m33_1.wrapper{background:#f5f5f5;}
+.m33_1.wrapper .box-txt{align-items:unset;position:relative;margin-top:5rem;}
+.box-addre{width:100%; ;margin:20px auto 0 auto;}
+.box-addre .search-addre{width:100%;margin:auto;display:flex;justify-content: space-between;align-items: center;}
+.box-addre .search-addre input{width:calc(100% - 50px);border:1px solid #d2d2d2;padding:10px;border-radius: 4px;font-size:0.87rem;height:40px;color:#383838;}
+.box-addre .search-addre input::placeholder{color:#bababa;}
+.box-addre .search-addre button{width:40px;height:40px;background:#dd695d;border-radius:4px;}
+.box-addre .search-addre button img{width:30px; ;background:#dd695d;margin:auto;}
+
+.box-addre .addre-txt{width:100%; ;}
+.box-addre .addre-txt p{font-weight:500;font-size:0.88rem;color:#383838;padding:15px 0 5px 0;;font-style:normal;}
+.box-addre .addre-txt span{width:100%;font-size:0.86rem;color:#909090;line-height: 20.72px;font-weight:normal;font-style:normal;}
+
+/* 주소찾기 KP-APP-D-SC-1012-1 Style Code */
+.box-txt .search-result{width:100%;background:#f5f5f5;margin:10px 0;padding:10px 15px;}
+.box-txt .search-result .result-details{display:flex;justify-content: space-between;padding:10px 0;}
+.box-txt .search-result .result-details.number{border-bottom: 1px solid #eaeaea;}
+.box-txt .search-result p{font-size:0.9rem;font-weight:500;padding-bottom: 5px;}
+.box-txt .search-result span{font-size:0.75rem;width:25%;height:1.2rem;background:#bababa;border-radius:2px;font-weight: 300;color:#fff;display:flex;justify-content: center;align-items: center;}
+
+.box-txt .search-result i{font-size:0.8rem;width:calc(80% - 5px);color:#383838;font-size:0.75rem;line-height: 17.76px;padding-left:7px;}
+
+/* 비밀번호 설정 KP-APP-D-SC-1013 Style Code */
+.m35.wrapper{background:#fff;display:flex;flex-direction:column;justify-content:space-around;height:100%;}
+/* .m35.wrapper .password-board{position: unset;} */
+
+/* 지문등록 KP-APP-D-SC-1014 Style Code */
+.m36.wrapper,.m36.wrapper.face{width:100%;height:100vh;background:#f5f5f5;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+.bio-pass{width:80%;margin:0 auto;height:30%;text-align: center;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+.bio-pass p,.bio-pass.face>p{font-size:1.5rem;font-weight:500;}
+.bio-pass span,.bio-pass.face>span{font-size:1.2rem;font-weight:500;padding:10px 0 30px 0;text-align: center;color:#909090;display: block;}
+.bio-pass ,.bio-pass.face>{width:100%; ;}
+.bio-pass  button,.bio-pass.face> button{width:60%;height:48px;border-radius: 100px;background:#dd695d;color:#fff;}
+
+.bio-img,.bio-img.face{width:70%;margin:20px auto 0 auto;height:30%;padding:10px 0;position:relative;display:flex;}
+.bio-img img,.bio-img.face>img{margin:auto;}
+
+/* 지문등록 KP-APP-D-SC-1014-1 Style Code */
+.m36.wrapper.error .bio-img p{width:100%; ;font-size:0.88rem;color:#dd695d;text-align: center;font-weight:500;line-height: 17.25px;display:block;position:absolute;top:0%;}
+
+/* 우편서비스 정보등록 KP-APP-D-SC-1015 Style Code */
+.m37.wrapper{width:100%;height:100vh;background:#f5f5f5;overflow:scroll;}
+.box-login{width:85%;margin:30px auto 0 auto;height:27rem;padding:15px 10px;background:#fff;border-radius:4px 4px 0 0;position:relative;margin-top:5rem}
+.box-login li{width:100%;height:21%;display:flex;flex-direction: column;justify-content: left;}
+.box-login li p{width:100%;font-size:0.7rem;color:#909090;}
+.box-login li input{width:100%;padding:10px 0;border-bottom: 1px solid #d2d2d2;font-size:0.9rem;}
+.box-login li input::placeholder{color:#bababa;}
+.box-login li i{width:100%;font-size:0.72rem;color:#dd695d;}
+.box-login li span{width:100%;font-size:0.8rem;color:#dd695d;font-weight:500;display:flex;align-items: center;justify-content: flex-end;}
+.box-login li span img{width:3%;margin:0 5px;}
+.box-login li.login-choice{position:relative;}
+.box-login li.login-choice span{position:absolute;top:26%;}
+.box-login li.login-wedding .wedding-date{width:100%;;display:flex;justify-content:space-between;padding:10px 0;}
+.box-login li.login-wedding .wedding-date select{padding:0 5px;height:30px;border-radius: 4px;font-size:0.9rem;background:#fff;border:1px solid #d2d2d2;color:#383838;}
+.box-login li.login-wedding .wedding-date select:nth-child(1){width:calc(40% - 5px);}
+.box-login li.login-wedding .wedding-date select:nth-child(2){width:calc(30% - 5px);}
+.box-login li.login-wedding .wedding-date select:nth-child(3){width:calc(30% - 5px);}
+
+/* 추천우체국 찾기 팝업 KP-APP-D-SC-1016 Style Code */
+.m39.wrapper{width:100%;height:100vh;position:absolute;left:0;top:0;background:rgba(0,0,0,0.4);z-index:99999}
+.m39.wrapper .search-modal{width:80%;height:auto;background:#fff;top:43%;left:50%;transform:translate(-50%,-50%);position:absolute;border-radius: 4px 4px 0 0;padding:15px;}
+.m39.wrapper .search-modal .search-post{width:100%; ;display:flex;justify-content: space-between;align-items:center;position:relative;}
+.m39.wrapper .search-modal .search-post p{text-align:center;width:100%; ;font-size:1.1rem;font-weight: 500;}
+.m39.wrapper .search-modal .search-post a{width:20px;height:20px;position:absolute;right:0;}
+.m39.wrapper .search-modal .search-post a img{position:absolute;right:0;width:70%;height: auto;margin:5px 10px;}
+.search-wrap{padding:20px 0;}
+.search-wrap .search-place{width:100%;height:15%; border-bottom:1px solid #d2d2d2;display:flex;flex-direction: column;justify-content: flex-end;margin-top:5%;}
+.search-wrap .search-place p{font-size:0.8rem;color:#909090;}
+.search-wrap .search-place input{font-size:0.9rem;color:#383838;padding:10px 0;}
+.search-wrap .search-place button{width:20%;height:7%;background:#dd695d;color:#fff;position:absolute;right:0;margin:5px 15px;font-size:0.9rem;font-style: normal;border-radius:4px;font-weight:300;}
+.search-wrap .alert-postname{width:100%; ;font-size:0.72rem;color:#dd695d;}
+
+.search-wrap .result-post{width:100%; ;display:flex;padding: 10px 0;border-bottom:1px solid #d2d2d2;margin-top:15%;}
+.search-wrap .result-post div{color:#909090;font-size:0.9rem;}
+.search-wrap .result-post div.post-name{width:55%;}
+.search-wrap .result-post div.post-code{width:45%;}
+.search-wrap .box-place{width:100%; ;font-size:0.95rem;color:#383838;display:flex;padding:10px 0;justify-content:center;overflow-y:scroll;height:150px;}
+.search-wrap .box-place ul.place-name{width:55%;}
+.search-wrap .box-place ul.place-code{width:45%;}
+.search-wrap .box-place ul.place-code li{color:#dd695d;}
+.search-wrap .box-place ul li{padding:10px 0;font-size:0.9rem;}
+.search-wrap .place-blank{width:100%; ;text-align:center;font-size:0.9rem;color:#383838;padding:15px 0;} 
+
+/* 가입완료 KP-APP-D-SC-1017 Face-id Style Code */
+.bio-pass button.password-login{margin-top: 30px;font-weight: 700;}
+.bio-img.face>img{width:40%;}
+.m36.wrapper.face{display:flex;}
+
+.box-completed{width:85%;height:80%;display:flex;flex-direction:column;justify-content:center;align-items: center;padding:2rem 0;}
+
+.box-completed .join-contents{width:100%; ;background:#fff;padding:70px 0 20px 0;}
+.box-completed .join-contents img{width:13%;margin:auto;}
+.box-completed .join-contents p{font-size:1.2rem;color:#dd695d;font-weight: 500;width:100%;text-align:center;padding:20px 0 50px 0;}
+.box-completed .join-txt{width:100%; ;font-size:0.85rem;color:#383838;padding:30px 30px 70px 30px;line-height: 20.72px;text-align:center;background:#fff;position:relative;}
+
+/* 로그인 선택 KP-APP-D-SC-1019 Style Code */
+.m44.wrapper{background:#f5f5f5;}
+.choice-login{width:100%;height:10.5rem;padding:20px 25px;}
+.choice-login a:active, .choice-login a:hover{text-decoration:none}
+.choice-login .personal-login{width:100%;height:100%;background:#fff;padding:10px 15px;border-radius:4px 4px 0 0;position:relative;}
+.choice-login span{width:23%; ;padding:4px 5px;border-radius:30px;display:block;text-align:center;color:#fff;font-size:0.85rem;}
+.choice-login p{width:100%; ;font-size:1.8rem;text-align: right;position:absolute;bottom:15px;right:0;margin:0 20px 0 0;}
+.choice-login .personal-login>.box-shadow{height:11px;}
+.choice-login.first span{background:#fff;}
+.personal-login.coporation{background:#BABABA; position:relative;}
+.personal-login.coporation span{background:#fff;}
+.personal-login span.bg_red{border:1px solid #DD695D;color:#DD695D}
+.personal-login span.bg_gray{border:1px solid #383838;color:#383838}
+.personal-login.coporation p{color:#fff;}
+.personal-login.coporation i{color:rgba(225,225,225,1);position:absolute;right:0;top:0;margin:15px 20px 0 0;font-size:1rem;}
+.choice-login.second{background:#eaeaea;}
+
+/* 법인 약관동의 KP-APP-D-SC-1020 Style Code */
+.m45.wrapper{background-color:#f5f5f5}
+.m45.wrapper .terms-container{background:#f5f5f5;height:auto;position:relative;}
+.m45.wrapper .terms-container .terms-txt.privercy{height:25rem;}
+.m45.wrapper .agree-rules{width:100%;position:relative;}
+.m45.wrapper .terms-container .terms-txt.privercy textarea{height:98%;}
+.agree-rules .custom-control{width:100%; ;background:#eaeaea;}
+.agree-rules p{font-size:0.8rem;padding:13px 10px;}
+.agree-rules .custom-control-label{padding:0 10px 0 15px;width:100%;display:flex;align-items:center;}
+
+/* 개인회원 홈 KP-APP-D-SC-3000 Style Code */
+.m54.wrapper{height:auto;}
+.top-bg{width:100%;height:13rem;background:#dd695d;position:relative;}
+.bottom-bg{width:100%;height:65%;background:#fff;}
+
+.personal-info{width:80%;height:auto;padding:30px 15px;position:absolute;top:0;background: #FFF6F5;box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);border-radius: 4px 4px 0 0;left:50%;transform:translateX(-50%);margin-top:10px;min-height: 170px;margin-top:5rem}
+.personal-info a{width:100%;height:auto;display:flex;justify-content:space-between;flex-direction:column;}
+.personal-info .box-infotxt{width:100%; ;display:flex;}
+.personal-info .box-infotxt p{width:70%;font-size:1rem;font-weight:500;line-height: 24.72px;}
+.personal-info .box-infotxt img{width:auto;position:absolute;top:0;right:0;height:120px;}
+
+.personal-info .detail-info{width:100%;display:flex;justify-content: space-between;align-items:flex-end;padding-top:30px;}
+
+.personal-info .detail-info p{font-size:0.7rem;padding:5px 0;}
+.personal-info .box-shadow{height:11px;}
+
+.bottom-bg .go-service{width:100%;margin-bottom:20px;height:auto;}
+.bottom-bg .go-service p{width:100%; ;font-size:1.15rem;font-weight:500;margin:70px auto 10px auto;padding:0 4%;}
+.bottom-bg .go-service .app-container{width:92%;height:auto;display:flex;flex-direction: column;border-radius: 4px;padding:10px;margin:20px auto 100px auto;background:#eaeaea;}
+.bottom-bg .go-service .app-container ul{display:flex;justify-content: flex-start;width:100%;height:40%;margin-bottom: 15px;}
+.bottom-bg .go-service .app-container ul li{width:33.3333333333%;height:auto;margin-bottom:0;;display:flex;flex-direction:column;align-items:center;padding:15px;}
+.bottom-bg .go-service .app-container ul li .app-bg{width:100%;height:100%;display:flex;align-items:center;justify-content:center;border-radius:4px;padding: 5px 5px 2px 5px;position:relative;}
+.bottom-bg .go-service .app-container ul li .app-bg img{width:auto;height:45px}
+.bottom-bg .go-service .app-container ul li span{font-size:0.7rem;width:100%; ;display:flex;justify-content:center;align-items:center;padding:0;font-weight: 700;}
+
+.qr-scan{width:56px;height:56px;border-radius:50%;background:#dd695d;display:flex;position:fixed;right:5%;bottom:11%;box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);}
+.qr-scan a{width:100%; ;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.qr-scan img{width:40%; ;margin-bottom: 2px;}
+.qr-scan p{color:#fff;font-size:0.5rem;font-style: normal;}
+
+/* 개인회원 홈 모달 KP-APP-D-SC-3000 Code Password Modal Style Code */
+.codepass-modal{width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(0,0,0,0.3);z-index:99999}
+.codepass-modal .box-txt{flex-direction:column;margin:0px auto 90px auto;top:5%}
+.codepass-modal .box-txt .modal-tit{width:100%; ;display:flex;align-items: center;justify-content: space-between;position:relative;}
+.codepass-modal .box-txt .modal-tit p{width:100%; ;font-size:1.1rem;font-weight:500;text-align:center;}
+.codepass-modal .box-txt .modal-tit a{position:absolute;height:15px;right:0;display:flex;justify-content:flex-end;}
+.codepass-modal .box-txt .modal-tit a img{margin:0 5px;}
+.codepass-modal .box-txt ul{display:flex;width:100%; ;align-items: center;justify-content: space-between;padding:55px 0 15px 0;}
+.codepass-modal .box-txt ul li{width:15%;height:20%;border:1px solid #d2d2d2;border-radius:4px;padding:20px 10px;text-align:center;font-size:1.2rem;font-weight:500;}
+
+.codepass-modal .box-txt span{width:100%;color:#dd695d;font-size:0.9rem;text-align: center;}
+.codepass-modal .box-txt i{width:100%;font-size:0.9rem;text-align: center;line-height: 20.72px;padding:40px 0;}
+.codepass-modal .box-txt button{width:45%;height:15%;background:#dd695d;color:#fff;padding:12px 0;border-radius:4px;font-size:0.9rem;margin-bottom: 10px;}
+.codepass-modal .box-txt button a{color:#fff;}
+ 
+/* KP-APP-D-SC-3000 Post/Shopping Code Password Modal Style Code */
+.codepass-modal .box-txt ul.post_shopping li{width:12%;padding:15px 5px;}
+
+/* KP-APP-D-SC-3000 Code Success Style Code */
+.popup-bg.code{width:100%;height:100vh;position:absolute;top:0;left:0;background:rgba(0,0,0,0.3);z-index:99999}
+
+/* 법인회원 홈 KP-APP-D-SC-3001 Style Code */
+.personal-info .detail-info.corp p{width:45%;}
+.personal-info .detail-info.corp p span{font-size:1rem;font-weight: 500;padding:0 5px;}
+.personal-info .detail-info.corp p:nth-child(2){width:50%;text-align: right;line-height: 16.28px;}
+
+/* 법인회원 대표자 상세정보 KP-APP-D-SC-3002 Style Code */
+.m55.wrapper{background:#f5f5f5;}
+.coporation-details{width:100%; ;display:flex;flex-direction: column;align-items:center;padding:2rem 0;margin-top:2rem}
+.coporation-details .box-coporation{width:100%; ;display:flex;align-items:center;flex-direction: column;}
+.coporation-details .box-coporation p{font-size:0.95rem;padding:15px 0;font-weight:500;width:85%;text-align:left;}
+.coporation-details .box-coporation p span{font-size:0.95rem;padding:15px 0;font-weight:500;color:#909090;}
+.coporation-details .box-coporation .box-txt{margin:0 0 15px 0;}
+.coporation-details .box-coporation .box-txt ul{width:100%; ;display:flex;flex-direction:column;}
+.coporation-details .box-coporation .box-txt ul li:nth-child(4){align-items:flex-start;padding:15px 0 5px 0;}
+.coporation-details .box-coporation .box-txt ul li:nth-child(4) p{padding:0;}
+.coporation-details .box-coporation .box-txt ul li{width:100%;display:flex; align-items: center;}
+.coporation-details .box-coporation .box-txt ul li p{width:calc(45% - 5px);color:#909090;font-size:0.88rem;font-weight:normal;font-style:normal;}
+.coporation-details .box-coporation .box-txt ul li span{width:calc(59% - 5px);color:#383838;font-size:0.88rem;font-weight:normal;font-style:normal;line-height: 20.72px;}
+
+.coporation-details .box-coporation.list .list-section{display:flex;align-items:center;justify-content: space-between;width:85%;}
+.coporation-details .box-coporation.list .list-section i{display:flex;align-items: center;font-size:0.82rem;color:#dd695d;font-weight:500;justify-content:space-between;}
+.coporation-details .box-coporation.list .list-section i img{width:13%; ;}
+.coporation-details .box-coporation.list ul li{justify-content: space-between;margin-left:3px;}
+.coporation-details .box-coporation.list ul li p{width:20%;font-size:0.7rem;text-align: center;}
+.coporation-details .box-coporation.list ul li span{width:20%;font-size:0.7rem;color:#909090;text-align: center;}
+.coporation-details .box-coporation.list ul li i{width:20%;font-size:0.7rem;text-align: center;color:#909090;font-weight:500;}
+.coporation-details .box-coporation.list ul li:nth-child(1){padding-bottom: 5px;border-bottom: 1px solid #d2d2d2;}
+.coporation-details .box-coporation.list ul li:nth-child(1) p,
+.coporation-details .box-coporation.list ul li:nth-child(1) span,
+.coporation-details .box-coporation.list ul li:nth-child(1) i{font-size:0.8rem;font-weight:500;}
+.coporation-details .box-coporation.list ul li:nth-child(2){padding-top:5px;}
+.coporation-details .box-coporation.list ul li:nth-child(2) i{color:#dd695d;}
+.coporation-details .box-coporation.list ul li:nth-child(3) i{color:#383838;}
+.coporation-details .box-coporation.list ul li:nth-child(4) i{color:#909090;}
+
+/* 법인회원 인증내역 KP-APP-D-SC-3005 Style Code */
+.m58.wrapper{background:#f5f5f5;}
+.sertifi-input{width:86%;margin:15px auto 0 auto;position:relative;margin-top:5rem}
+.sertifi-input select{width:100%; ;padding:10px 15px;position:relative;border:1px solid #eaeaea;font-size:0.9rem;-webkit-appearance: none;-moz-appearance: none;appearance: none;border-radius:4px;background:#fff;}
+.sertifi-input svg{width:7%; ;position:absolute;right:0;top:25%;fill:#909090;}
+.m58.wrapper .box-txt ul{width:100%; ;}
+.m58.wrapper .box-txt ul li{display:flex;justify-content: space-between;padding:5px 0;align-items:center;}
+.m58.wrapper .box-txt ul li:nth-child(1){padding-bottom:15px;border-bottom: 1px solid #d2d2d2;}
+.m58.wrapper .box-txt ul li:nth-child(1) p{font-size:0.8rem;font-weight:500;width:30%;}
+.m58.wrapper .box-txt ul li p{font-size:0.7rem;color:#909090;text-align:center;line-height:17.2px;}
+.m58.wrapper .box-txt ul li p:nth-child(1){width:30%;}
+.m58.wrapper .box-txt ul li p:nth-child(2){width:30%;}
+.m58.wrapper .box-txt ul li p:nth-child(3){width:20%;}
+.m58.wrapper .box-txt ul li p:nth-child(4){width:20%;}
+.m58.wrapper .box-txt ul li .date{text-align:left;}
+
+/* 우정서비스 탭화면 KP-APP-D-SC-4000 Style Code */
+.m60.wrapper{height:100vh;position:relative;}
+.m60.wrapper .top-nav{background:#dd695d;}
+.m60.wrapper .box-service{width:100%;height:100%;background:#f5f5f5;padding-top:5px;margin-top:6rem}
+.top-nav .service-menu{width:85%;margin:auto; ;display:flex;align-items:center;}
+.top-nav .service-menu p{color:#fff;font-size:0.9rem;font-weight:500;border-bottom:3px solid #fff;padding:15px 10px 10px 5px;}
+.top-nav .service-menu span{color:#fff;opacity:0.6;font-weight:300;font-size:0.9rem;padding:15px 5px 10px 10px;}
+.top-nav .service-menu a:active, .top-nav .service-menu a:hover{text-decoration:none}
+
+.box-service .box-txt{margin:20px auto 0 auto;}
+.box-service li{width:100%;display:flex;align-items:center;justify-content:space-between;}
+.box-service li .service-img{width:55%; ;display:flex;align-items:center;}
+.box-service li .service-img img{width:25%; ;background:rgba(56,56,56,0.4);border-radius:50%;}
+.box-service li .service-img p{font-size:1rem;font-weight:500;padding-left:10px;}
+.box-service li span{width:35%;font-size:0.8rem;font-weight:500;text-align:right;padding:0 15px;}
+
+/* 우편 이용내역 KP-APP-D-SC-4001 Style Code */
+.m61.m62.m63.m64.m65.wrapper{background:#f5f5f5;padding-bottom:15px;}
+.m61.m62.m63.m64.m65.wrapper .history-list{width:100%; ;display:flex;justify-content:space-between;align-items:center;background:#dd695d;padding:3rem 10px 5px 7.5%;}
+.m61.m62.m63.m64.m65.wrapper .history-list p{width:50%;font-size:0.9rem;font-weight:300;display:flex;flex-direction:column;align-items: flex-start;line-height:25px;color:#fff;}
+.m61.m62.m63.m64.m65.wrapper .history-list p span{color:#fff;font-size:1.3rem;font-weight:500;}
+.m61.m62.m63.m64.m65.wrapper .history-list img{width:30%; ;}
+
+.history-container{width:100%; ;display:flex;flex-direction:column;align-items: center;}
+.history-container .roundbox-txt ul{display:flex;width:100%; ;justify-content: space-between;}
+.history-container .roundbox-txt ul li{width:100%;display:flex;flex-direction:column;}
+.history-container .roundbox-txt ul li:nth-child(1){text-align:left;}
+.history-container .roundbox-txt ul li:nth-child(2){text-align:right;}
+
+.history-container.post .roundbox-txt ul li i{width:100%;font-size:0.75rem;font-weight:500;color:#909090;height:22%;}
+.history-container .roundbox-txt ul li p{width:100%;font-size:1rem;font-weight:500;height:25%;}
+.history-container .roundbox-txt ul li a img{height:12px;display:inline;margin:-3px 0 0 5px}
+.history-container .roundbox-txt ul li span{width:100%;font-size:1.1rem;font-weight:500;height:28%;}
+.history-container .roundbox-txt ul li em{width:100%;font-size:0.9rem;font-weight:500;height:25%;padding:0;color:#909090;}
+.history-container .roundbox-txt ul li em.post-status{color:#dd695d;padding-right:18px}
+
+.lasted-txt p{width:100%; ;text-align: center;padding:20px 0;font-size:0.9rem;color:#909090}
+
+/* 쇼핑 이용내역 KP-APP-D-SC-4002 Style Code */
+.history-container.shopping .roundbox-txt ul li {padding:0;justify-content:space-between;}
+.history-container.shopping .roundbox-txt ul li i{height:auto;padding:0;font-size:0.75rem;color:#909090}
+.history-container.shopping .roundbox-txt ul li p{padding:5px 0 0 0;height:auto;}
+.history-container.shopping .roundbox-txt ul li em{padding:0;}
+.history-container.shopping .roundbox-txt ul li em.name{font-size:0.87rem;color:#383838;}
+
+.history-container.shopping .roundbox-txt ul li:nth-child(1) em{display:flex;align-items: flex-end;}
+.history-container.shopping .roundbox-txt ul li:nth-child(2) i{color:#383838}
+.history-container.shopping .roundbox-txt ul li i.post-status{color:#dd695d;font-size:0.9rem;font-weight:500;margin-right:17px;}
+
+/* 모바일 우편함 수신내역 KP-APP-D-SC-4003 Style Code */
+.history-container.m_post ul{width:100%;}
+.history-container.m_post .roundbox-txt{flex-direction:column;}
+.history-container.m_post .roundbox-txt a{display:block;}
+.history-container.m_post .mail-tit{display:flex;width:100%; ;justify-content:space-between;align-items:center;padding-bottom: 10px;}
+.history-container.m_post i{width:100%; ;line-height:23.68px;font-size:0.98rem;}
+.history-container.m_post .mail-tit p{display:flex;align-items:center;width:70%;font-size:0.9rem;font-weight:500;}
+.history-container.m_post .mail-tit p img{width:auto;height:12px;}
+.history-container.m_post .mail-tit p svg{width:10%;}
+.history-container.m_post .mail-tit span{font-size:0.7rem;font-weight:500;color:#909090;}
+
+@media screen and (max-width:320px){
+  .history-container.m_post .mail-tit p{width:75%;font-size:0.86rem;}
+  .history-container.m_post i{font-size:0.85rem;line-height:20px;}
+}
+
+/* 예금 가입내역 KP-APP-D-SC-4004 Style Code */
+.m64.wrapper .roundbox-txt p{width:100%;font-size:0.95rem;padding-top:5px}
+.m64.wrapper .roundbox-txt .account{width:100%; ;display:flex;align-items:flex-end;padding:10px 0;justify-content:space-between;}
+.m64.wrapper .roundbox-txt .account span{width:35%;font-size:0.85rem;font-weight:500;color:#909090;}
+.m64.wrapper .roundbox-txt .account a{width:100%; ;}
+.m64.wrapper .roundbox-txt .account i{width:100%;font-size:1.1rem;font-weight:500;display:flex;align-items: center; ;justify-content: flex-end;}
+.m64.wrapper .roundbox-txt .account i img{width:4%; ;margin-left:5px;}
+.m64.wrapper .roundbox-txt .account p{text-align:right;color:#909090;font-size:0.85rem;padding-right:15px;font-weight:500}
+
+/* 펀드 가입내역 KP-APP-D-SC-4006 Style Code */
+.m64.wrapper .lasted-list{width:100%; ;}
+.m64.wrapper .lasted-list .roundbox-txt{flex-direction:column;}
+.m64.wrapper .lasted-list .roundbox-txt p{width:100%; ;display:flex;justify-content:space-between;font-size:0.8rem;color:#909090;padding-bottom: 5px;}
+.m64.wrapper .lasted-list .roundbox-txt p em{display:block;width:fit-content;font-size:0.8rem;}
+.m64.wrapper .lasted-list .roundbox-txt span{width:100%; ;font-weight:500;font-size:1rem;padding:10px 0;display:flex;align-items: center;justify-content: space-between;font-weight:500;}
+.m64.wrapper .lasted-list .roundbox-txt span i{color:#383838;font-weight:500;}
+.m64.wrapper .lasted-list .roundbox-txt em{width:100%; ;display:flex;align-items:center;justify-content:space-between;font-size:0.9rem;color:#909090;font-weight:500;}
+.m64.wrapper .lasted-list .roundbox-txt em span{width:40%;display:block;text-align:right;font-size:0.9rem;font-weight:500;color:#909090;padding:0;}
+
+.m64.wrapper .lasted-list .roundbox-txt i{font-size:1.1rem;font-weight:500;display:flex;align-items: center; ;justify-content: flex-end;}
+.m64.wrapper .lasted-list .roundbox-txt i img{height:12px;width:7.41px;margin:2px 0 0 8px;}
+
+.m64.wrapper .lasted-list .lasted-txt{width:100%; ;text-align: center;padding:20px 0;font-size:0.9rem;}
+.m64.wrapper .lasted-list .lasted-txt p{color:#909090;line-height:20.72px;}
+
+/* 마이데이터  KP-APP-D-SC-5000 Style Code */
+.m68.wrapper{background:#f5f5f5;}
+.mydata-intro{width:85%;margin:25px auto;background:#fff;position:relative;margin-top:5rem;}
+.mydata-intro .data-img{width:100%;height:100%;position:relative;padding-bottom: 20px;display:flex;align-items:center;justify-content:center;}
+.mydata-intro .data-img img{width:100%; ;background-position:center;margin:auto;}
+.mydata-intro .data-img p{width:100%; ;text-align:center;font-weight:500;position:absolute;bottom:0;padding:0 0 20px 0;}
+.m68.wrapper .btn-app{margin:auto auto 80px auto;}
+
+@media screen and (max-width:320px){
+  .mydata-intro .data-img img{height:90%;}
+}
+
+/* 회원정보 더보기 KP-APP-D-SC-6000 Style Code */
+.m71.wrapper{position:relative;}
+.more-menu{width:100%;}
+.more-menu ul{width:85%;margin:auto;margin-top:50px;}
+.m71.wrapper .more-menu ul{margin-top:40px;}
+.more-menu ul li{width:100%;padding:10px 0;border-bottom:1px solid #d2d2d2;display:flex;align-items:center;justify-content: space-between;}
+.more-menu ul li p{font-size:1rem;width:45%;}
+.more-menu ul li a{width:100%;display:flex;justify-content:space-between;align-items:center;}
+.more-menu ul li svg{width:9%; ;fill:#bababa;}
+.more-menu ul li.version span{font-size:0.8rem;color:#dd695d;font-weight:700;}
+.more-menu .bottom_last:after{display:block;content:"";padding-bottom:80px;}
+
+.personal-info .box-infotxt.more{width:100%; ;display:flex;justify-content: space-between;padding-top:10px;}
+.personal-info .box-infotxt.more p{width:65%;line-height: 19.24px;font-size:1.1rem;font-weight:500;}
+.personal-info .box-infotxt.more p span{word-break:break-word;font-size:0.8rem;color:#909090;display:block;margin-top:10px;}
+.personal-info .box-infotxt.more img{width:auto;height:80px;position: unset;}
+
+/* 공지사항 KP-APP-D-SC-6006 Style Code */
+.m76.wrapper{background:#f5f5f5;}
+.more-lists{width:100%; ;}
+.more-lists .notice-lists{width:100%;background:#fff;}
+.notice-lists .notice-icon{width:90%;display:flex;align-items:center;padding:15px 0px;position:relative;border-bottom:1px solid #d2d2d2;margin:auto;}
+.notice-lists:nth-last-child(1){border:0;}
+.more-lists .notice-lists .notice-date{width:100%; ;display:flex;flex-direction:column;}
+.more-lists .notice-lists .notice-date i{width:65%; ;color:#909090;font-size:0.9rem;padding-top:5px;}
+.notice-lists .notice-icon .item-txt{width:20%;display:flex;justify-content:flex-end;}
+.notice-lists .notice-icon .item-txt.rotate{transform:rotateX(180deg);}
+.notice-lists .notice-icon .item-txt svg{width:55%; ;fill:#909090;border:1px solid #eaeaea;border-radius:50%;}
+.more-lists .notice-lists .notice-date .notice-tit{width:100%; ;display:flex;align-items:center;}
+.more-lists .notice-lists .notice-date .notice-tit span{width:13%; ;background:#909090;color:#fff;font-size:0.7rem;padding:3px 0;text-align:center;border-radius:4px;}
+.more-lists .notice-lists .notice-date .notice-tit p{width:70%; ;font-weight:500;font-size:1.1rem;margin:0 10px;}
+.more-lists .notice-lists .notice-details{width:100%;padding:15px 5%;margin-bottom:15px;display:none;}
+.more-lists .notice-lists .notice-details.active{display:block;}
+.more-lists .notice-lists .notice-details p{font-size:0.9rem;}
+.more-lists .notice-lists:last-child .notice-icon{border-bottom:none}
+
+/* 자주하는 질문 KP-APP-D-SC-6007 Style Code */
+.m77.wrapper{background:#f5f5f5;}
+.qna-container{width:100%; ;}
+.qna-container ul{width:100%; ;background:#fff;padding:15px 20px;display:flex;flex-direction:column;margin-bottom:20px;;}
+.qna-container ul:nth-child(1){padding:0px 20px 15px 20px;}
+.qna-container ul p{color:#dd695d;font-weight:700;font-size:0.9rem;padding:20px 0;}
+.qna-container ul li{width:100%; ;display:flex;flex-direction:column;justify-content:space-between;}
+.qna-container ul li .qna-tit{width:100%; ;display:flex;justify-content:space-between;align-items:center;padding-bottom:10px;}
+.qna-container ul li .qna-tit .qna-icon svg{transition:all .3s}
+.qna-container ul li .qna-tit.active .qna-icon svg{transform:rotate(180deg);}
+.qna-container ul li span{width:90%; ;font-size:0.95rem;line-height:20px;}
+.qna-container ul li .qna-icon{width:20%;display:flex;justify-content:flex-end;}
+.qna-container ul li .qna-icon svg{width:auto;height:30px;fill:#909090;border:1px solid #eaeaea;border-radius:50%;}
+.qna-container ul li .qna-txt{width:100%; ;padding:15px 0;border-top:1px solid #d2d2d2;display:none;margin-top:15px;}
+.qna-container ul li .qna-txt.active{display:block;}
+.qna-container ul li .qna-txt i{font-size:0.9rem;line-height:20.72px;}
+
+/* 이용안내 KP-APP-D-SC-6008 Style Code */
+.m78.wrapper{background:#f5f5f5;}
+.m78.wrapper .lSSlideOuter{overflow:unset;}
+.m78.wrapper .lSSlideOuter .lSPager.lSpg{bottom:-10%;}
+.info-use{width:85%; ;margin:auto;}
+.info-use .sertifi-input{width:100%;padding:10px 0;margin:0 0 15px 0;}
+.info-use .sertifi-input svg{top:30%;}
+.info-use .info-slides{width:100%; ;position:relative;}
+.info-use .info-slides .box-slides{width:100%; ;background:#f5f5f5;}
+.info-use .info-slides .box-slides li{width:100%; ;display:flex;flex-direction: column;align-items:center;}
+.info-use .info-slides .box-slides li img{width:100%;background:#fff;}
+.info-use .info-slides .box-slides li span{width:100%;height:3rem;background:#f5f5f5;display:flex;justify-content:center;align-items:flex-end;color:#dd695d;font-weight:500;}
+.info-use .info-slides .box-slides li span i{padding-left:5px;}
+
+/* 이용약관 KP-APP-D-SC-6009 Style Code */
+.terms_box{width:100%; ;}
+.terms_box .more-menu ul{margin-top:0;}
+.terms_box .more-menu ul li a{width:100%;}
+.terms_box .more-menu ul li svg{width:10%;}
+.terms_box .more-menu ul li:nth-last-child(1){border:0;}
+.terms_box .terms-tit{width:100%;display:flex;flex-direction:column;font-size:1rem;font-weight:normal;}
+.terms_box .terms-tit span{width:100%; ;font-size:0.87rem;color:#909090;padding-top:5px;}
+
+/* 회원탈퇴 KP-APP-D-SC-6011 Style Code */
+.m80.wrapper{background:#f5f5f5;overflow:hidden;}
+.box-leave{width:100%;padding:20px 25px;margin-top:1rem}
+.box-leave p{width:100%; ;line-height:20.72px;text-align:left;padding-bottom:15px;font-size:0.95rem;}
+.m80.wrapper .btn-app{position:absolute;bottom:0;left:50%;transform:translateX(-50%);}
+.m80.wrapper .btn-app.modal-event{height:unset;}
+
+.box-leave .leave-txt{width:100%;background:#fff;padding:20px 20px 15px 20px;border-radius:4px 4px 0 0;position: relative;}
+.box-leave .leave-txt ul{width:100%; ;}
+.box-leave .leave-txt ul li{width:95%; ;list-style: disc;margin:0 0 15px auto;}
+.box-leave .leave-txt ul li::marker{color:#bababa;font-size:0.8rem;}
+.box-leave .leave-txt ul li i{width:90%;font-size:0.82rem;line-height:19.24px;}
+.m80.wrapper .custom-control{width:85%;margin:auto;}
+.m80.wrapper .custom-control p{font-size:0.8rem;}
+.m80.wrapper .custom-control-label{display:flex;align-items:center;width:100%;padding:0;}
+.m80.wrapper .custom-control-label p{margin-left:10px;}
+
+/* 삭제동의 KP-APP-D-SC-6012 Style Code */
+.box-leave .leave-txt.delete li{list-style:none;width:100%;padding:2px 0;margin:0;}
+.box-leave.delete{height:70%;}
+.box-leave.delete .custom-control{width:100%;margin-bottom:10px;}
+.box-leave.delete .custom-control p{padding-bottom:0;font-size:0.95rem;font-weight:500;}
+.box-leave .leave-txt.delete .custom-control{width:100%;align-items:center;}
+.box-leave .leave-txt.delete .custom-control p{padding-bottom:0;font-size:0.9rem;margin:0 10px;font-weight: normal;}
+
+/* 알림함 KP-APP-D-SC-3006 Style Code */
+.m90.wrapper{background:#f5f5f5;}
+.box-notice{width:100%; ;}
+.box-notice ul{width:100%; ;padding-bottom:15px;}
+.box-notice ul li{flex-direction:column;width:90%;}
+.box-notice ul li .notice-tit{width:100%; ;display:flex;align-items:flex-end;padding-bottom:10px;border-bottom:1px solid #d2d2d2;}
+.box-notice ul li span{width:70%; ;font-size:0.9rem;font-weight:500;}
+.box-notice ul li p{width:30%; ;font-size:0.75rem;color:#909090;font-weight:500;}
+.box-notice ul li i{width:100%; ;line-height:19.52px;font-size:0.85rem;padding:10px 0 0 0;}
+
+/* 펀드 가입내역 KP-APP-D-SC-4006 Style Code */
+.fund-history{width:100%; ;display:flex;flex-direction:column;background:#dd695d;}
+.fund-history .history-list.fund{border-bottom:1px solid rgba(225,225,225,0.2);}
+.fund-history .total-fund{width:90%;margin:auto; ;display:flex;justify-content:space-between;padding:15px 0;align-items:center;}
+.fund-history .total-fund p{font-size:0.9rem;color:#fff;}
+.fund-history .total-fund span{font-size:1.3rem;color:#fff;font-weight:500;}
+
+/* 마이데이터 약관동의 KP-APP-D-SC-5001 Style Code */
+.m91.wrapper{background:#f5f5f5;}
+.box-mydata{width:100%; ;padding:15px 20px;background:#f5f5f5;margin-top:1rem}
+.box-mydata .sub1-agree.data li{width:100%;}
+.box-mydata .sub1-agree.data li span{width:fit-content; ;font-size:0.75rem;}
+.box-mydata .sub1-agree.data li a{width:80%;}
+.box-mydata .sub1-agree.data li a svg{width:8%;}
+
+.box-mydata .mydata-txt ul{width:100%; ;margin:10px 0 0 0;}
+.box-mydata .mydata-txt ul li{display:flex;flex-direction:column;}
+.box-mydata .mydata-txt ul li p{width:100%; ;font-size:0.85rem;font-weight:500;padding-bottom:15px;}
+.box-mydata .mydata-txt ul li span{width:100%; ;font-size:0.8rem;padding-bottom:5px;}
+
+/* 설정 KP-APP-SC-6001 Style Code */
+.m72.wrapper{position:relative;background:#f5f5f5;}
+.more-settings{width:100%; ;background:#fff;}
+.more-settings .more-menu ul{margin-top:0;}
+.more-settings .more-menu ul li:nth-last-child(1){border:0;}
+
+.setting-alert{width:85%; ;position:absolute;bottom:0;left:50%;transform:translateX(-50%);margin-bottom:20px;text-align:center;}
+.setting-alert p{width:100%; ;background:rgba(56,56,56,0.7);color:#fff;font-size:0.9rem;padding:15px 0;border-radius:4px;margin-top:5px}

@@ -1,0 +1,99 @@
+/* Reset Style Code */
+
+* {margin: 0;padding: 0;box-sizing: border-box;font-family:'Noto Sans KR', sans-serif;color:#383838;}
+*::before, *::after {word-break: break-all;}
+a {text-decoration: none;color: #333;}
+a:hover,a:active{text-decoration: none;}
+ol,ul {list-style: none;}
+img {display: block;}
+input,button,textarea {outline: 0;border:0;;overflow: visible}
+button{outline:0;box-sizing: border-box;}
+h2{font-size:25px;}
+i,em{font-style: normal;}
+.wrapper{width:100%;height:100vh;overflow-x:hidden;}
+
+
+/* Shadow Common Style Code */
+.box-shadow{background:url(../img/bg_m_shadow_01.png) no-repeat center;width:106%;height:12px;position:absolute;left:50%;transform: translateX(-50%);bottom:0;background-size:108% 13px;}
+.box-shadow.app{background:url(../img/bg_shadow_02.svg) no-repeat center;width:70px;height:13px;position:absolute;left:50%;transform: translateX(-50%);bottom:0;background-size:124%;}
+
+/* App Button Common Style Code */
+.btn-app{width:86%;height:48px;margin:10% auto;position:relative;}
+.btn-app button{font-weight: 700;font-size:16px;text-align:center;line-height:24px;color:#fff;font-style:normal;width:100%;height:48px;display: flex;align-items: center;justify-content: center;background:#dd695d;border-radius:100px;}
+
+/* App Top Navi Style Code */
+.top-nav{width:100%;height:auto;position:fixed;z-index:99999;top:0;}
+.top-nav .icon-txt{width:100%;height:56px;background:#dd695d;position:relative;}
+.top-nav .icon-txt p{width:100%;height:100%;color:#fff;display:flex;align-items: center;justify-content: center;font-weight: 500;font-size:1.1rem;line-height: 29.6px;}
+.top-nav .top-iconBack{fill: #fff;_background-color:#dd695d;position:absolute;width:56px;height:56px;display:flex;}
+.top-nav .top-iconClose{fill: #fff;_background-color:#dd695d;position:absolute;width:56px;height:56px;display:flex;right:0;}
+.top-nav .top-iconBack img,.top-nav .top-iconClose img{width:1.5rem;height:1.5rem;margin:auto;}
+.top-4{padding-top:4rem;}
+
+/* App Text Box Common Style Code */
+.box-txt{width:86%;height:auto;background:#fff;margin:25px auto 0 auto;border-radius: 8px 8px 0px 0px;display:flex;align-items: center;justify-content: space-between;position:relative;padding:15px;}
+
+.roundbox-txt{width:85%;height:auto;background:#fff;margin:15px auto 0 auto;border-radius: 8px;display:flex;position:relative;padding:15px;}
+
+/* Password board Common Style Code */
+.password_txt{width:70%;height:auto;display:flex;justify-content: center;font-size:1.2rem;font-weight:500;margin:auto;padding-top:2.5rem;text-align:center;line-height: 28.12px;margin-top:1rem}
+.password_txt.top-4{padding-top:4rem}
+.password_txt.input{margin:1rem auto 0 auto;}
+.password-save{width:70%;height:auto;margin:auto;margin:auto;}/*padding:15px 0 7px 0;*/
+.password-save .pass-dots{width:100%;height:auto;display:flex;justify-content: center;padding-bottom:10px;}
+.password-save .pass-dots li{width:12%;height:50px;border-bottom:2px solid #dd695d;margin: 5px;display:flex;justify-content:center;align-items:center;}
+.password-save .pass-dots li span{width:8px;height:8px;border-radius:50%;background:#383838;}
+.password-save p,.password-save span{width:100%;height:auto;font-size:0.85rem;color:#dd695d;text-align: center;font-weight:500;line-height: 17.25px;display:block;}
+.password-save p{padding-bottom: 5px;}
+
+.password-error{width:90%;height:auto;margin:auto;}
+.password-error p{font-size:0.85rem;color:#dd695d;text-align: center;line-height:17.72px;}
+
+.password-board{width:100%;height:auto;display:grid;grid-template-columns: 1fr 1fr 1fr;position:absolute;bottom:0;}
+.password-board li{width:100%;height:auto;padding:24px;font-size:1.5rem;font-weight:500;text-align:center;}
+.password-board li:nth-child(10){font-size:1.2rem;line-height:29px;}
+.password-board li:nth-child(12) img{width:auto;height:20px;margin:5px auto 0 auto;}
+
+.password-board li.active:nth-child(1),
+.password-board li.active:nth-child(3),
+.password-board li.active:nth-child(5),
+.password-board li.active:nth-child(7),
+.password-board li.active:nth-child(9),
+.password-board li.active:nth-child(11){background-color:rgba(255,0,0,0.5);}
+
+.password-board li.active:nth-child(2),
+.password-board li.active:nth-child(4),
+.password-board li.active:nth-child(6),
+.password-board li.active:nth-child(8),
+.password-board li.active:nth-child(10),
+.password-board li.active:nth-child(12){background-color:rgba(7,133,35,0.5);}
+
+/* Popup Common Style Code */
+.m46.wrapper{height:100%;}
+.popup-bg.on{display:flex;}
+.popup-bg{width:100%;height:100vh;background:rgba(0,0,0,0.35);display:none;justify-content: center;align-items:center;position:absolute;top:0;left:0;z-index:99999;}
+/* 연동 성공 */
+.popup-success{width:80%;height:18%;margin:auto;padding:20px 25px;background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;border-radius:4px 4px 0 0 ;position:relative;}
+.popup-success p{width:100%;height:auto;font-size:1rem;color:#383838;font-weight:500;line-height: 20.4px;}
+.popup-success span{width:100%;height:auto;font-size:1rem;font-weight:500;color:#dd695d;text-align: right;display:block;position:absolute;right:0;bottom: 0;margin:0 30px 25px 0;font-weight: 700;}
+/* 연동 실패 */
+.popup-fail{width:80%;height:20%;margin:auto;padding:20px 25px;background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;border-radius:4px 4px 0 0 ;position:relative;}
+.popup-fail p{width:100%;height:auto;font-size:1rem;color:#383838;font-weight:500;line-height: 20.4px;}
+.popup-fail span{width:100%;height:auto;font-size:1rem;font-weight:500;color:#dd695d;text-align: right;display:block;position:absolute;right:0;bottom: 0;margin:0 30px 25px 0;font-weight: 700;}
+/* 서비스 탈퇴 */
+.popup-leave{width:80%;height:25%;margin:auto;padding:20px 25px;background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;border-radius:4px 4px 0 0 ;position:relative;}
+.popup-leave p{width:100%;height:auto;font-size:1rem;color:#383838;font-weight:500;line-height: 20.4px;}
+.popup-leave span {width:100%;height:auto;text-align: right;position:absolute;right:0;bottom: 0;margin:0 10px 25px 0;font-weight: 700;padding:0 10px;display:flex;justify-content: right;}
+.popup-leave span a{font-size:1rem;color:#dd695d;}
+.popup-leave span i{color:#909090;padding:0 15px;position:relative;}
+.popup-leave span i::before{border-left:1px solid #909090;content:"";position:absolute;width:2px;height:13px;left:14%;transform:translate(-50%,-50%);top:50%;}
+
+/* Bottom Navigation Style Code */
+.bottom-nav{width:100%;height:10%;position:fixed;bottom:0;display:flex;align-items:center;border-top:1px solid #eaeaea;background:#fff;}
+.bottom-nav .nav-contents{width:100%;height:auto;display:flex;align-items: center;justify-content: space-around;}
+.bottom-nav .nav-contents li{width:calc(20% - 5px);height:auto;display:flex;flex-direction:column;justify-content:center;align-items:center;}
+.bottom-nav.service{width:90%;left:50%;transform:translateX(-50%);background:#fff;border-radius:8px 8px 0 0;border:none;height:9%;}
+.bottom-nav .nav-contents li svg{fill:#909090;width:35%;height:auto;}
+.bottom-nav .nav-contents li i{color:#909090;font-size:0.75rem;}
+.bottom-nav .nav-contents li.active svg{fill:#383838;width:35%;height:auto;}
+.bottom-nav .nav-contents li.active i{color:#383838;}

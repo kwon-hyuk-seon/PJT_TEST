@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no, address=no, email=no" />
+
+  <title>인증 내역</title>
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- bootstrap Style Code -->
+  <link rel="stylesheet" href="../css/morpheus-style.css">
+  <!-- Main Style Sheet -->
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <!-- Common Style Sheet -->
+  <link rel="stylesheet" href="../css/morpheus-common.css">
+</head>
+
+<body>
+  <div class="m58 wrapper">
+    <div class="top-nav">
+      <div class="icon-txt">
+        <a href="KP-APP-D-SC-3003.html">
+          <div class="top-iconBack"><img src="../img/ic_back.svg" alt="뒤로가기"></div>
+        </a>
+        <p>인증 내역</p>
+      </div>
+    </div>
+    <!-- End of Header Section -->
+
+    <!-- Select box Section -->
+    <div class="sertifi-input">
+      <select onchange="if(this.value) location.href=(this.value);">
+        <option value="KP-APP-D-SC-3005.html">전체</option>
+        <option value="KP-APP-D-SC-3005_1.html">대표자</option>
+        <option value="KP-APP-D-SC-3005_2.html">위임자</option>
+        <option value="KP-APP-D-SC-3005_3.html" selected>사용자</option>
+      </select>
+      <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+        <path class="st0" d="M69.1,35.8L50,54.9L30.9,35.8L25,41.7l25,25l25-25L69.1,35.8z" />
+      </svg>
+    </div>
+    <!-- End of Select box Section -->
+
+    <!-- 인증내역 Text Section -->
+    <div class="box-txt">
+      <ul>
+        <li>
+          <p class="date">일시</p>
+          <p>우정서비스</p>
+          <p>이름</p>
+          <p>부서</p>
+        </li>
+        <li>
+          <p class="date">2021.08. 07<br/>12:00:00</p>
+          <p>우편</p>
+          <p>홍길동</p>
+          <p>대표</p>
+        </li>
+        <li>
+          <p class="date">2021.08. 07<br />12:00:00</p>
+          <p>예금</p>
+          <p>홍길서</p>
+          <p>회계</p>
+        </li>
+        <li>
+          <p class="date">2021.08. 07<br />12:00:00</p>
+          <p>보험</p>
+          <p>홍길서</p>
+          <p>인사</p>
+        </li>
+        <li>
+          <p class="date">2021.08. 07<br />12:00:00</p>
+          <p>쇼핑</p>
+          <p>홍길서</p>
+          <p>기획</p>
+        </li>
+      </ul>
+      <div class="box-shadow"></div>
+    </div>
+    
+      
+    </ul>
+  </div>
+  <script src="../js/jquery-3.3.1.js"></script>
+  <script src="../js/lightslider.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
