@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c97c6a71-dfa9-4f6f-af9c-a73536d48bf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/POSA.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/KP-APP-D-SC-1007.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/KP-APP-D-SC-1007.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="24trpQpg63QqgjtaNUMAgtwwQya" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c97c6a71-dfa9-4f6f-af9c-a73536d48bf8" name="Default Changelist" comment="" />
+      <created>1644460906656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644460906656</updated>
+      <workItem from="1644460908207" duration="13887000" />
+      <workItem from="1644569225583" duration="687000" />
+      <workItem from="1644575490240" duration="593000" />
+    </task>
+    <task id="LOCAL-00001" summary="1st commit @20220210">
+      <created>1644461998418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644461998418</updated>
+    </task>
+    <task id="LOCAL-00002" summary="policy page publishing @20220210">
+      <created>1644484076061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644484076061</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit @20220210" />
+    <MESSAGE value="policy page publishing @20220210" />
+    <option name="LAST_COMMIT_MESSAGE" value="policy page publishing @20220210" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="100" key="CommitChangelistDialog2" timestamp="1644484075682">
+      <screen x="0" y="25" width="1680" height="952" />
+    </state>
+    <state x="417" y="100" key="CommitChangelistDialog2/0.25.1680.952@0.25.1680.952" timestamp="1644484075682" />
+    <state x="349" y="137" key="SettingsEditor" timestamp="1644470290081">
+      <screen x="0" y="25" width="1680" height="952" />
+    </state>
+    <state x="349" y="137" key="SettingsEditor/0.25.1680.952@0.25.1680.952" timestamp="1644470290081" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1644481532518">
+      <screen x="0" y="25" width="1680" height="952" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.25.1680.952@0.25.1680.952" timestamp="1644481532518" />
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2" timestamp="1644484081536">
+      <screen x="0" y="25" width="1680" height="952" />
+    </state>
+    <state x="440" y="238" key="Vcs.Push.Dialog.v2/0.25.1680.952@0.25.1680.952" timestamp="1644484081536" />
+  </component>
+</project>
