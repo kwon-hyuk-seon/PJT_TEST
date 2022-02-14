@@ -12,11 +12,26 @@ h2{font-size:25px;}
 i,em{font-style: normal;}
 .wrapper{width:100%;height:100vh;overflow-x:hidden;}
 
+/* Flex-box Class Style */
+.flex-column-box {
+    display: flex;
+    flex-direction: column;
+}
+.overflow-container {
+    overflow: hidden;
+    padding: 0 1em !important;
+    flex-grow: 1;
+}
+.flex-wrapper {
+    display: flex;
+    position: relative !important;
+    flex: none;
+}
+
 
 /* Shadow Common Style Code */
 .box-shadow{background:url(../img/bg_m_shadow_01.png) no-repeat center;width:106%;height:12px;position:absolute;left:50%;transform: translateX(-50%);bottom:0;background-size:108% 13px;}
 .box-shadow.app{background:url(../img/bg_shadow_02.svg) no-repeat center;width:70px;height:13px;position:absolute;left:50%;transform: translateX(-50%);bottom:0;background-size:124%;}
-
 /* App Button Common Style Code */
 .btn-app{width:86%;height:48px;margin:10% auto;position:relative;}
 .btn-app button{font-weight: 700;font-size:16px;text-align:center;line-height:24px;color:#fff;font-style:normal;width:100%;height:48px;display: flex;align-items: center;justify-content: center;background:#dd695d;border-radius:100px;}
