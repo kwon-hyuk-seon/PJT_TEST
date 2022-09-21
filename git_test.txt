@@ -8,4 +8,8 @@ main - update
 rebase
 
 
+<<<<<<< HEAD
 kim
+=======
+park
+>>>>>>> conflict
